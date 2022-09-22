@@ -1,6 +1,5 @@
-
-*{
-    font-family:  Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+*
+ {   font-family:  Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,6 +9,7 @@
 body{
     font-family:  Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
+
 /*start navbar*/
 
 
@@ -136,6 +136,8 @@ body{
 
 /*end navbar*/
   
+  
+
 /*start main section*/
 .main{
     background-image: url(./images/background.jpg);
@@ -165,7 +167,7 @@ body{
     font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 20px;
-    color:#fff;
+    color: #fff;
 }
 @media (max-width:500px) {
     .home h1{
@@ -279,7 +281,7 @@ body{
 }
 .card{
     background-color: #fff;
-    width: 25%;
+    flex-basis: 25%;
     padding: 25px;
     
 }
@@ -300,10 +302,11 @@ body{
 
 .grid{
     background-color: #6c757d;
-    height: 60vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+        height: 60vh;
+        width: 100%;
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+
 }
 @media(max-width:991px){
     .grid{
