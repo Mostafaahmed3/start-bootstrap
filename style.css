@@ -272,6 +272,11 @@ body{
     flex-wrap: wrap;
     padding: 0 90px;
 }
+@media(max-width:990px){
+    .content{
+        flex-direction: column;
+    }
+}
 .card{
     background-color: #fff;
     width: 25%;
@@ -304,7 +309,7 @@ body{
     .grid{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            height: 130vh;
+            height: 122vh;
          
     }
 }
@@ -312,7 +317,7 @@ body{
         .grid {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
-                height: 295vh;
+                height: 245vh;
             }
 
 }
